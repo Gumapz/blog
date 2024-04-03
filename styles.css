@@ -344,6 +344,25 @@ header.sticky{
     text-transform: capitalize;
 }
 
+@media only screen and (max-width: 480px){
+    .contact-info{
+        top: -5px;
+        left: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .contact-info{
+        top: -5px;
+        left: 20px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .contact-info{
+        top: -5px;
+        left: 20px;
+    }
+}
+
 
 /* Base styles */
 .about{
