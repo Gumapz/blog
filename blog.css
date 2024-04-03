@@ -170,21 +170,21 @@ body{
     .profile {
         width: 150px;
         height: auto;
-        top: 60%;
+        top: 66%;
     }
 
     .name{
-        top: 85%;
+        top: 90%;
         font-size: 12px;
     }
 
     .underline input {
-        top: 5px;
+        top: 8px;
         width: 90%;
     }
 
     .nav a {
-        padding: 10px 5%;
+        padding: 20px 5%;
     }
 }
 
