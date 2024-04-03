@@ -101,7 +101,7 @@ body{
     }
 
     .name{
-        top: 85%;
+        top: 90%;
         font-size: 12px;
     }
 
@@ -133,13 +133,13 @@ body{
     }
 
     .profile {
-        width: 150px;
+        width: 140px;
         height: auto;
-        top: 60%;
+        top: 63%;
     }
 
     .name{
-        top: 85%;
+        top: 82%;
         font-size: 12px;
     }
 
@@ -171,14 +171,14 @@ body{
     }
 
     .profile {
-        width: 150px;
+        width: 120px;
         height: auto;
-        top: 66%;
+        top: 50%;
     }
 
     .name{
-        top: 90%;
-        font-size: 12px;
+        top: 77%;
+        font-size: 11px;
     }
 
     .underline input {
@@ -261,13 +261,13 @@ body{
 
 .back{
     position: absolute; 
-    top: 2%; 
+    top: 1%; 
     left: 3%; 
     transform: translateX(-50%);
 }
 .back a{
     color: black;
-    font-size: 50px;
+    font-size: 35px;
 }
 .back a:hover{
     color: #fff;
