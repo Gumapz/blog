@@ -292,16 +292,11 @@ header.sticky{
 .contact-info{
     position: relative;
     top: -5px;
-    left: -80px;
+    left: 5px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, auto)); /* Change auto-fit to auto-fill */
-    gap: 5rem;
+    gap: 3rem;
 }
-/* 
-.first-info img{
-    width: 100px;
-    height: auto;
-} */
 .logo{
     font-size: 25px;
     color: #ee1c47;
