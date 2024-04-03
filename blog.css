@@ -173,7 +173,7 @@ body{
     .profile {
         width: 120px;
         height: auto;
-        top: 45%;
+        top: 35%;
     }
 
     .name{
@@ -262,7 +262,7 @@ body{
 .back{
     position: absolute; 
     top: 1%; 
-    left: 3%; 
+    left: 5%; 
     transform: translateX(-50%);
 }
 .back a{
