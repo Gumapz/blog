@@ -292,7 +292,7 @@ header.sticky{
 .contact-info{
     position: relative;
     top: -5px;
-    left: 5px;
+    left: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, auto)); /* Change auto-fit to auto-fill */
     gap: 3rem;
