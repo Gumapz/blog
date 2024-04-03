@@ -125,6 +125,7 @@ section{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    transform: all 0.3s;
 }
 
 .main-text h5{
@@ -141,6 +142,7 @@ section{
     line-height: 1.1;
     font-weight: 600;
     margin: 6px 0 10px;
+    transition: all .42s;
 }
 
 .home-image img {
@@ -150,34 +152,7 @@ section{
     width: 38%;
     height: auto;
     border-radius: 50%;
-}
-
-/* Media queries for responsiveness */
-@media only screen and (max-width: 1200px) {
-    .home-image img {
-        width: 30%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 100px; /* Adjust as needed */
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .home-image img {
-        width: 50%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 50px; /* Adjust as needed */
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .home-image img {
-        width: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 30px; /* Adjust as needed */
-    }
+    transition: all .42s;
 }
 
 .main-text p{
@@ -185,6 +160,7 @@ section{
     font-size: 20px;
     font-style: italic;
     margin-bottom: 20px;
+    transition: all .42s;
 }
 
 .main-btn{
@@ -225,6 +201,70 @@ section{
     background-color: #2c2c2c;
     color: #fff;
     transition: all .42s ease;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+    .home-image img {
+        width: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 100px; /* Adjust as needed */
+    }
+
+    .main-text h1{
+        font-size: 50px;
+    }
+    .main-text p{
+        font-size: 18px;
+    }
+    .main-btn{
+        font-size: 13px;
+        font-weight: 450;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-image img {
+        width: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px; /* Adjust as needed */
+    }
+
+    .main-text h1{
+        font-size: 40px;
+    }
+
+    .main-text p{
+        font-size: 15px;
+    }
+
+    .main-btn{
+        font-size: 13px;
+        font-weight: 450;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home-image img {
+        width: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 30px; /* Adjust as needed */
+    }
+
+    .main-text h1{
+        font-size: 30px;
+    }
+    .main-text p{
+        font-size: 13px;
+    }
+
+    .main-btn{
+        font-size: 13px;
+        font-weight: 450;
+    }
 }
 
 
