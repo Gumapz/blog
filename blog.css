@@ -371,7 +371,30 @@ body{
 #dropdown2 a:hover{
     color: #ee1c47;
 }
-
+@media only screen and (max-width: 1200px){
+    #dropdown1{
+        left: 9.5%;
+    }
+    #dropdown2{
+        left: 27%;
+    }
+}
+@media only screen and (max-width: 768px){
+    #dropdown1{
+        left: 9%;
+    }
+    #dropdown2{
+        left: 35%;
+    }
+}
+@media only screen and (max-width: 480px){
+    #dropdown1{
+        left: 8%;
+    }
+    #dropdown2{
+        left: 34%;
+    }
+}
 
 
 .blog-page {
