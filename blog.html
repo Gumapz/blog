@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <title>Blog</title>
+    <link rel="icon" type="image/x-icon" href="image/logo1.png">
+</head>
+
+<body>
+    <section class="page">
+
+        <div class="cover">
+            <img src="image/cover.jpg" alt="">
+
+            <div class="back">
+                <a href="index.html"><i class='bx bx-left-arrow-alt'></i></a>
+            </div>
+
+            <div class="name">
+                <h2>Robert R. Gumapo</h2>
+                <br>
+                <h6>1.5M followers • 0 following</h6>
+            </div>
+            <div class="profile">
+                <img src="image/profile.jpg" alt="">
+            </div>
+
+            <div class="underline">
+                <input disabled>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a  id="button1" onclick="tonggleButton1()">PHOTOS</a>
+            <a  id="button2" onclick="tonggleButton2()">VIDEOS</a>
+        </div>
+
+        <div id="dropdown2" class="tab-video">
+            <a class="sectionBtn" data-section="travel_video">Travel</a>
+            <div class="separator"></div>
+            <a class="sectionBtn" data-section="food_video">Food</a>
+        </div>
+
+        <div id="dropdown1" class="tab-image">
+            <a class="sectionBtn" data-section="travel_img">Travel</a>
+            <div class="separator"></div>
+            <a class="sectionBtn" data-section="food_img">Food</a>
+        </div>
+
+    </section>
+
+    <!-- blog page -->
+    <section class="blog-page active" id="home">
+        <div class="image">
+            <div class="row">
+                <img src="image/pic1.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic2.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic3.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic4.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic5.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic6.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic7.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img src="image/pic8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================================ -->
+    <footer class="blog-page" id="travel_video">
+        <div class="center-text">
+            <h2>TRAVEL VIDEO</h2>
+        </div>
+
+        <div class="blo">
+            <div class="vd">
+                <video id="myVideo1" src="image/vid.mp4" controls></video>
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn1"></i>
+                    <span class="likeCount">0</span>
+                    <i class='bx bx-dislike' id="dislikeBtn1"></i>
+                    <span class="dislikeCount">0</span>
+                </div>
+            </div>
+        
+            <div class="vd">
+                <video id="myVideo2" src="image/vid.mp4" controls></video>
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn2"></i>
+                    <span class="likeCount">0</span>
+                    <i class='bx bx-dislike' id="dislikeBtn2"></i>
+                    <span class="dislikeCount">0</span>
+                </div>
+            </div>
+        
+            <div class="vd">
+                <video id="myVideo3" src="image/vid.mp4" controls></video>
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn3"></i>
+                    <span class="likeCount">0</span>
+                    <i class='bx bx-dislike' id="dislikeBtn3"></i>
+                    <span class="dislikeCount">0</span>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <footer class="blog-page" id="food_video">
+        <div class="center-text">
+            <h2>FOOD VIDEO</h2>
+        </div>
+
+        <div class="blo">
+            <div class="vd">
+                <video id="myVideo" src="image/vid.mp4" controls></video>
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn"></i>
+                    <span id="likeCount">0</span>
+                    <i class='bx bx-dislike' id="dislikeBtn"></i>
+                    <span id="dislikeCount">0</span>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+<!-- ============================================================================================ -->
+
+    <footer class="blog-page" id="travel_img">
+        <div class="center-text">
+            <h2>TRAVEL IMAGE</h2>
+        </div>
+
+        <div class="image">
+            <div class="Row">
+                <img src="image/bg3.jpg" alt="">
+
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn"></i>
+                    <i class='bx bx-dislike' id="dislikeBtn"></i>
+                </div>
+                </div>
+        </div>
+    </footer>
+
+
+
+    <footer class="blog-page" id="food_img">
+        <div class="center-text">
+            <h2>FOOD IMAGE</h2>
+        </div>
+
+        <div class="image">
+            <div class="Row">
+                <img src="image/pic8.jpg" alt="">
+
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn"></i>
+                    <i class='bx bx-dislike' id="dislikeBtn"></i>
+                </div>
+            </div>
+
+            <div class="Row">
+                <img src="image/pic8.jpg" alt="">
+
+                <div class="like">
+                    <i class='bx bx-like' id="likeBtn"></i>
+                    <i class='bx bx-dislike' id="dislikeBtn"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================================================================================ -->
+    <div class="end-text">
+        <p>© Copyright @2024. All Rights Reserved.</p>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

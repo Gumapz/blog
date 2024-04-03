@@ -1,0 +1,77 @@
+<!-- <style>
+.hidden{
+    display: none;
+}
+</style>
+<button id="button1" onclick="tonggleButton()">button 1</button>
+
+<div id="dropdown" class="hidden">
+    <button id="button2">button 2</button>
+</div>
+
+<script>
+    function tonggleButton(){
+        var dropdown = document.getElementById("dropdown")
+        if (dropdown.classList.contains("hidden")){
+            dropdown.classList.remove("hidden")
+        }else{
+            dropdown.classList.add("hidden")
+        }
+    }
+</script> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Section Change</title>
+<style>
+  .section {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<section id="section1" class="section visible">
+  <h2>Section 1</h2>
+  <p>This is the content of section 1.</p>
+  <button onclick="changeSection(1)">Change to Section 2</button>
+</section>
+
+<section id="section2" class="section">
+  <h2>Section 2</h2>
+  <p>This is the content of section 2.</p>
+  <button onclick="changeSection(2)">Change to Section 3</button>
+</section>
+
+<section id="section3" class="section">
+  <h2>Section 3</h2>
+  <p>This is the content of section 3.</p>
+  <button onclick="changeSection(3)">Change to Section 1</button>
+</section>
+
+<script>
+function changeSection(sectionNumber) {
+  var sections = document.querySelectorAll('.section');
+  
+  // Hide all sections
+  sections.forEach(function(section) {
+    section.classList.remove('visible');
+  });
+  
+  // Show the targeted section
+  var targetSection = document.getElementById('section' + sectionNumber);
+  targetSection.classList.add('visible');
+}
+</script>
+
+</body>
+</html>
+
