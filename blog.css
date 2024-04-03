@@ -173,7 +173,7 @@ body{
     .profile {
         width: 120px;
         height: auto;
-        top: 37%;
+        top: 39%;
     }
 
     .name{
@@ -183,7 +183,7 @@ body{
 
     .underline input {
         top: 8px;
-        width: 90%;
+        width: 100%;
     }
 
     .nav a {
