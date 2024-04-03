@@ -36,7 +36,7 @@ header{
     height: 3px;
     background-color: black;
     margin: 5px 0;
-    margin-left: 250px;
+    margin-left: 200px;
     transition: transform 0.4s, opacity 0.4s;
 }
 
@@ -50,6 +50,7 @@ header{
     margin: 0;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .navigation li {
@@ -62,6 +63,7 @@ header{
     text-transform: capitalize;
     font-weight: 600;
     transition: all .42s ease;
+    margin-left: -100px;
 }
 
 .navigation a:hover {
