@@ -139,7 +139,7 @@ body{
     }
 
     .name{
-        top: 82%;
+        top: 85%;
         font-size: 12px;
     }
 
@@ -173,11 +173,11 @@ body{
     .profile {
         width: 120px;
         height: auto;
-        top: 39%;
+        top: 49%;
     }
 
     .name{
-        top: 75%;
+        top: 78%;
         font-size: 11px;
     }
 
@@ -371,7 +371,7 @@ body{
 #dropdown2 a:hover{
     color: #ee1c47;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1024px){
     #dropdown1{
         left: 9.5%;
     }
@@ -384,15 +384,15 @@ body{
         left: 9%;
     }
     #dropdown2{
-        left: 35%;
+        left: 34%;
     }
 }
 @media only screen and (max-width: 480px){
     #dropdown1{
-        left: 8%;
+        left: 7%;
     }
     #dropdown2{
-        left: 34%;
+        left: 33%;
     }
 }
 
