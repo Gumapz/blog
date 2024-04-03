@@ -381,10 +381,10 @@ body{
 }
 @media only screen and (max-width: 768px){
     #dropdown1{
-        left: 9%;
+        left: 10%;
     }
     #dropdown2{
-        left: 34%;
+        left: 36%;
     }
 }
 @media only screen and (max-width: 480px){
