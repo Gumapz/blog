@@ -191,6 +191,44 @@ body{
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .page {
+        padding: 30px 5%;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    
+    .profile, .name {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .profile {
+        width: 120px;
+        height: auto;
+        top: 39%;
+    }
+
+    .name{
+        top: 75%;
+        font-size: 11px;
+    }
+
+    .underline input {
+        top: 8px;
+        width: 100%;
+    }
+
+    .nav a {
+        padding: 20px 5%;
+    }
+}
+
 
 
 /* blog css*/
