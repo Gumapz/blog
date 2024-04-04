@@ -63,7 +63,7 @@ header{
     text-transform: capitalize;
     font-weight: 600;
     transition: all .42s ease;
-    margin-left: -80px;
+    margin-left: -20px;
 }
 
 .navigation a:hover {
@@ -216,7 +216,7 @@ section{
 
     .main-text h1{
         font-size: 50px;
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     .main-text p{
@@ -239,7 +239,7 @@ section{
 
     .main-text h1{
         font-size: 50px;
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     .main-text p{
@@ -262,7 +262,7 @@ section{
 
     .main-text h1{
         font-size: 50px;
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     .main-text p{
