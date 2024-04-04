@@ -82,6 +82,163 @@ body{
     color: #ee1c47;
 }
 
+<<<<<<< HEAD
+=======
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+    .page {
+        padding: 30px 5%;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    
+    .profile, .name {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .profile {
+        width: 150px;
+        height: auto;
+        top: 62%;
+    }
+
+    .name{
+        top: 90%;
+        font-size: 12px;
+    }
+
+    .underline input {
+        top: 5px;
+        width: 100%;
+    }
+
+    .nav a {
+        padding: 10px 5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page {
+        padding: 30px 5%;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    
+    .profile, .name {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .profile {
+        width: 140px;
+        height: auto;
+        top: 65%;
+    }
+
+    .name{
+        top: 85%;
+        font-size: 12px;
+    }
+
+    .underline input {
+        top: 5px;
+        width: 100%;
+    }
+
+    .nav a {
+        padding: 10px 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page {
+        padding: 30px 5%;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    
+    .profile, .name {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .profile {
+        width: 120px;
+        height: auto;
+        top: 49%;
+    }
+
+    .name{
+        top: 77%;
+        font-size: 11px;
+    }
+
+    .underline input {
+        top: 8px;
+        width: 100%;
+    }
+
+    .nav a {
+        padding: 20px 5%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page {
+        padding: 30px 5%;
+    }
+    
+    .cover img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+    
+    .profile, .name {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .profile {
+        width: 120px;
+        height: auto;
+        top: 39%;
+    }
+
+    .name{
+        top: 75%;
+        font-size: 11px;
+    }
+
+    .underline input {
+        top: 8px;
+        width: 100%;
+    }
+
+    .nav a {
+        padding: 20px 5%;
+    }
+}
+
+
+>>>>>>> ecd48b2464b0787d29755735d20300ba53c4ad1f
 
 /* blog css*/
 .blog-page{
@@ -223,7 +380,7 @@ body{
 #dropdown2 a:hover{
     color: #ee1c47;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1024px){
     #dropdown1{
         left: 9.5%;
     }
@@ -233,18 +390,18 @@ body{
 }
 @media only screen and (max-width: 768px){
     #dropdown1{
-        left: 9%;
+        left: 10%;
     }
     #dropdown2{
-        left: 35%;
+        left: 36%;
     }
 }
 @media only screen and (max-width: 480px){
     #dropdown1{
-        left: 8%;
+        left: 7%;
     }
     #dropdown2{
-        left: 34%;
+        left: 33%;
     }
 }
 
