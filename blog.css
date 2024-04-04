@@ -206,6 +206,24 @@ body{
     }
 }
 
+@media only screen and (max-width: 333px){
+    .name h6 {
+        font-size: 1.5vw;
+    }
+    
+    .name h3{
+        font-size: 2.5vw;
+    }
+    .name {
+        position: absolute;
+        top: 69%; 
+        left: 40%; 
+    }
+    .nav a {
+        font-size: 15px;
+    }
+}
+
 /* blog css*/
 .blog-page{
     position: relative;
