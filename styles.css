@@ -82,7 +82,7 @@ header{
         align-items: center;
         position: absolute;
         top: 30px; /* Adjust this value as needed */
-        left: -90px;
+        left: -130px;
         border: 2px solid #fff;
         background-color: #fff;
         width: 200px;
@@ -216,7 +216,6 @@ section{
 
     .main-text h1{
         font-size: 50px;
-        margin-top: -20px;
     }
 
     .main-text p{
@@ -239,7 +238,6 @@ section{
 
     .main-text h1{
         font-size: 50px;
-        margin-top: -20px;
     }
 
     .main-text p{
@@ -262,7 +260,6 @@ section{
 
     .main-text h1{
         font-size: 50px;
-        margin-top: -20px;
     }
 
     .main-text p{
